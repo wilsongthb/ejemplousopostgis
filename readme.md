@@ -1,3 +1,4 @@
+Para ejecutar en consola de postgresql
 ```sql
 CREATE DATABASE gisdb;
 \connect gisdb;
@@ -28,7 +29,7 @@ CREATE EXTENSION pointcloud_postgis;
 ```
 
 
-Crear una tabla
+Crear una tabla, en la herramienta de sql de pgAdmin
 
 ```sql
 
@@ -40,7 +41,7 @@ CREATE TABLE canchitas (id integer, name varchar, geom geometry);
 
 ```
 
-Guardar datos de prueba
+Guardar datos de prueba, con herramienta sql de pgAdmin
 
 ```sql
 
